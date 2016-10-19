@@ -36,5 +36,30 @@ Project is an E-Game Application system.  This is an application in which e game
  Purchase
  1.User will have a full cart at the start of the transaction 
     1.1 if the user has nothing in cart then they cannot progress.  
- 2. the system will display a list of items aswell as 
+ 2. the system will display a list of items aswell as their prices. At the bottom there will be a total amount.
+ 3. The user will have to confirm they are happy with what is in their cart by pressing continue button. 
+ 4. the user will be prompted to choose what payment type ie. Card, Funds on account or BitCoin
+ 5. Once the user has chosen their payment method money is taken from the relevnt place and the transaction is complete
+    5.1 if there is insufficiant funds in the users account an error message will show and the user will be taken back to the cart (for a swift telling off)
+ 6. games from the list will then be added to the users library
+ 
+ Review
+ 0.1 One important pre requisite for this use case is that the user actually needs to have the game in their library before they can review
+ 1. user goes to game page in their library
+ 2. user types in text box their review of the game
+ 3. user presses review button and the review is stored
+ 4. text box resets
+ 
+ Top Sales
+ 1. admin invokes the top sales by pressing the top sales button from the admin menu
+ 2. The system pulls top 10 sales in order of amount from highest to lowest
+ 
+ View Purch Logs
+ 1. Admin invokes purchase logs by pressing the purchase logs button on the admin menu
+ 2. the system brings up an all inclusive list of every sale that has happened on the system
+ 
+ add game to system
+ 1. admin invokes the add game function using a button in the admin menu
+ 2. a gui is displayed to the admin with text boxes that he/she must insert the information of the new game into
+ 3. once the information is in the text boxes the admin presseds the add game button  and the game is added to the library. 
  
