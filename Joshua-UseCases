@@ -106,6 +106,46 @@ Use Case (Casual Format)
 
 -Alternative Scenarios
  . Users debit card gets declined and the system brings the user back to the 
+ . User does not have enough in personal account and would be asked to use a different form of payment
+ . User presses the cancel payment button
+   . The system returns the user back to the previous screen
+ . 
+---------------------------------------------------------------------------------------------------------------------------
+
+
+ Use Case (fully Dressed)
+ 
+ Use Case: Purchase Game
+ 
+ Primary  Actor: 
+  -User
+ 
+ Stakeholder and Interests:
+  - user: Wants to purchase game from the system.
+ Preconditions: 
+  . User must have account
+  . User must have something in their cart
+  
+  Success Guarantee (postconditions)
+  . Sale is completed and game is added to users library
+  
+  Main Success Scenario (basic flow)
+  
+   1.User will have a full cart at the start of the transaction 
+    1.1 if the user has nothing in cart then they cannot progress.  
+   2. the system will display a list of items aswell as their prices. At the bottom there will be a total amount.
+   3. The user will have to confirm they are happy with what is in their cart by pressing continue button. 
+   4. the user will be prompted to choose what payment type ie. Card, Funds on account or BitCoin
+   5. Once the user has chosen their payment method money is taken from the relevnt place and the transaction is complete
+    5.1 if there is insufficiant funds in the users account an error message will show and the user will be taken back to the cart (for a swift telling off)
+   6. games from the list will then be added to the users library
+ 
+   Alternative Flows: 
+   . Users debit card gets declined and the system brings the user back to the 
+   . User does not have enough in personal account and would be asked to use a different form of payment
+   . User presses the cancel payment button
+   . The system returns the user back to the previous screen
+ 
  
  
  
