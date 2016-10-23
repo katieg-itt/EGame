@@ -63,3 +63,60 @@ Project is an E-Game Application system.  This is an application in which e game
  2. a gui is displayed to the admin with text boxes that he/she must insert the information of the new game into
  3. once the information is in the text boxes the admin presseds the add game button  and the game is added to the library. 
  
+ ---------------------------------------------------------------------------------------------------------------------------
+ 
+ Use Case (Casual Format)
+ 
+ .Add Game to System
+ 
+ - Success
+  . Game is added to the system without any issues
+  
+  
+-Alternate Scenarios
+ . Admin enters a game system that is not correct 
+   . Throws an error for the admin to read and amend issue
+ . Admin leaves one of the fields empty
+   . System throws an error explaining the issue. 
+ . Admin enters a game already in the system
+   . System throws an error exlaining the game is already in the system
+ 
+ ---------------------------------------------------------------------------------------------------------------------------
+ 
+ Use Case (Casual Format)
+ 
+ . Review
+ 
+ -Success
+  . The user adds the review to the system and refreshes the text box
+
+ - Alternative Scenarios
+  .The user leaves the review box empty and presses the button to review
+   . the system will tell the user they cannot leave the box empty
+    . Alternative to this the button could be not pushable until there is data in the box
+ 
+ ---------------------------------------------------------------------------------------------------------------------------
+ 
+Use Case (Casual Format)
+
+-Purchase Game
+
+-Success
+ . User completes purchase and game/games are added to users library
+
+-Alternative Scenarios
+ . Users debit card gets declined and the system brings the user back to the 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
