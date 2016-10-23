@@ -7,7 +7,7 @@
 	<META NAME="AUTHOR" CONTENT="Keith Hussey">
 	<META NAME="CREATED" CONTENT="20161023;195200000000000">
 	<META NAME="CHANGEDBY" CONTENT="Keith Hussey">
-	<META NAME="CHANGED" CONTENT="20161023;212400000000000">
+	<META NAME="CHANGED" CONTENT="20161023;224500000000000">
 	<META NAME="AppVersion" CONTENT="16.0000">
 	<META NAME="DocSecurity" CONTENT="0">
 	<META NAME="HyperlinksChanged" CONTENT="false">
@@ -347,7 +347,7 @@ View Libraries. </B>
 </OL>
 <P STYLE="margin-bottom: 0.11in"> 
 </P>
-<P STYLE="margin-bottom: 0.11in"><FONT SIZE=4><U><B>Casual Brief
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=4><U><B>Casual Brief Use
 Case: </B></U></FONT>
 </P>
 <P STYLE="margin-bottom: 0.11in"><FONT SIZE=3><B>Refund: </B></FONT>
@@ -422,11 +422,88 @@ Case: </B></U></FONT>
 <UL>
 	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Password is
 	incorrect</FONT></P>
-	<LI><P STYLE="margin-bottom: 0.11in"><A NAME="_GoBack"></A><FONT SIZE=3>Mandatory
-	details are not completed</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Mandatory details
+	are not completed</FONT></P>
 </UL>
-<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3><U><B>Fully Dressed Use
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=4><U><B>Fully Dressed Use
 Case: </B></U></FONT>
 </P>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Use Case: </FONT>
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Refund</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Primary Actor:</FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Stakeholder and
+Interests:</FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User wants to
+	Refund a purchased game</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Preconditions:</FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User must have the
+	game purchased</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User must meet
+	game refund conditions</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Game must not be
+	played more than Game refund policy minimum game hours</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Success:</FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Game will be
+	deleted from library</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Monies will be
+	refunded to user</FONT></P>
+</UL>
+<P STYLE="margin-bottom: 0.11in"><BR><BR>
+</P>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Main Success Scenario: </FONT>
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User selects
+	Refund</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>System will
+	display list of games the user has purchased</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>User selects the
+	game which is to be refunded</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>System checks the
+	time played by the user of the selected game				4.1 If the game is
+	not eligible for refund the system will display an error</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>System checks the
+	users details 								5.1 The user has not been a member for 6
+	months the system will display an error message</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The system will
+	ask for a confirmation from user.						 6.1 The user selects cancel,
+	user is returned to main menu</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The system checks
+	the authenticity of the game 							7.1 The system finds that the
+	game has not been purchased from this store             7.2The
+	system shows an error message</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The system removes
+	the game from the users account</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The user will be
+	refunded </FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>System returns to
+	main screen</FONT></P>
+</OL>
+<P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>Alternate Flows:</FONT></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The user is not
+	eligible for refund</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The user has
+	played the game for more than the minimum play time</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The game is not
+	authentic </FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The user cancels
+	the refund</FONT></P>
+	<LI><P STYLE="margin-bottom: 0.11in"><FONT SIZE=3>The user exits the
+	refund screen</FONT></P>
+</UL>
 </BODY>
 </HTML>
