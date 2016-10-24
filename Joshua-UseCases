@@ -109,7 +109,6 @@ Use Case (Casual Format)
  . User does not have enough in personal account and would be asked to use a different form of payment
  . User presses the cancel payment button
    . The system returns the user back to the previous screen
- . 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
@@ -148,20 +147,3 @@ Use Case (Casual Format)
    Technology Used
    basic pc input output device (ie mouse, keyboard)
    
-   
-   
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
