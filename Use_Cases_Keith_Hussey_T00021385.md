@@ -7,7 +7,7 @@ Our project is an E-Game System. The system enables a user to purchase a game fo
 Use Case
 
  |--------|----------------|------|---------------|
- |Usecase | Description    | Risk | Business Value|
+ |Use Case| Description    | Risk | Business Value|
  |--------|----------------|------|---------------|
  |  1     | Login          |  2   |      4        |
  |  2     | Register       |  2   |      4        |
@@ -17,18 +17,15 @@ Use Case
  |  6     | Review         |  3   |      2        |
  |  7     | Top Sales      |  1   |      2        |
  |  8     | Top Scores     |  1   |      1        |
- |  9     | View Catagories|  2   |      3        |
+ |  9     | View Categories|  2   |      3        |
  |  10    | View Purch Logs|  2   |      4        |
- |  11    | View Libaray   |  3   |      3        |
+ |  11    | View Library   |  3   |      3        |
  |  12    | Download Game  |  4   |      4        |
  |  13    | Amend Account  |  3   |      3        |
  |  14    | Add Discount   |  2   |      3        |
  |  15    | Add Game-Store |  4   |      4        |
  |--------|----------------|------|---------------|
  
-
-
-
 The 5 Use Cases I will be taking in the project are: Refund, View Categories, View Libraries, Download Game, Amend Account
 
 Brief: ALL
@@ -157,7 +154,6 @@ Success:
 Alternate Scenarios:
 
 •Insufficient space on user’s hard drive
-
 
 •Download has been interrupted
 
