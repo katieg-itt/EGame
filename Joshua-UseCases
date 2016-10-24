@@ -6,7 +6,7 @@ Project is an E-Game Application system.  This is an application in which e game
 
  Use Case
  |--------|----------------|------|---------------|
- |Usecase | Description    | Risk | Business Value|
+ |Use case | Description    | Risk | Business Value|
  |--------|----------------|------|---------------|
  |  1     | Login          |  2   |      4        |
  |  2     | Register       |  2   |      4        |
@@ -16,31 +16,31 @@ Project is an E-Game Application system.  This is an application in which e game
  |  6     | Review         |  3   |      2        |
  |  7     | Top Sales      |  1   |      2        |
  |  8     | Top Scores     |  1   |      1        |
- |  9     | View Catagories|  2   |      3        |
+ |  9     | View Categories|  2   |      3        |
  |  10    | View Purch Logs|  2   |      4        |
- |  11    | View Libaray   |  3   |      3        |
+ |  11    | View Library   |  3   |      3        |
  |  12    | Download Game  |  4   |      4        |
  |  13    | Amend Account  |  3   |      3        |
  |  14    | Add Discount   |  2   |      3        |
  |  15    | Add Game-Store |  4   |      4        |
  |--------|----------------|------|---------------|
  
- Because this is the cleanest version of the use cases we are using this table to describe the use cases accross all 3 of our documents
+ Because this is the cleanest version of the use cases we are using this table to describe the use cases across all 3 of our documents
  
  The 5 use cases that i will be taking on myself are: 
   (Brief: Purchase, Review, Top Sales, View Purch Logs, Add Game-Store)
- (Casual:Purchase, Review, View Purch Logs)
+ (Casual: Purchase, Review, View Purch Logs)
  (fully Case: Purchase)
  
  
  Purchase
  1.User will have a full cart at the start of the transaction 
     1.1 if the user has nothing in cart then they cannot progress.  
- 2. the system will display a list of items aswell as their prices. At the bottom there will be a total amount.
+ 2. the system will display a list of items as well as their prices. At the bottom there will be a total amount.
  3. The user will have to confirm they are happy with what is in their cart by pressing continue button. 
- 4. the user will be prompted to choose what payment type ie. Card, Funds on account or BitCoin
- 5. Once the user has chosen their payment method money is taken from the relevnt place and the transaction is complete
-    5.1 if there is insufficiant funds in the users account an error message will show and the user will be taken back to the cart (for a swift telling off)
+ 4. the user will be prompted to choose what payment type ie. Card, Funds on account or Bitcoin
+ 5. Once the user has chosen their payment method money is taken from the relevant place and the transaction is complete
+    5.1 if there is insufficient funds in the users account an error message will show and the user will be taken back to the cart (for a swift telling off)
  6. games from the list will then be added to the users library
  
  Review
@@ -61,7 +61,7 @@ Project is an E-Game Application system.  This is an application in which e game
  add game to system
  1. admin invokes the add game function using a button in the admin menu
  2. a gui is displayed to the admin with text boxes that he/she must insert the information of the new game into
- 3. once the information is in the text boxes the admin presseds the add game button  and the game is added to the library. 
+ 3. once the information is in the text boxes the admin pressed the add game button  and the game is added to the library. 
  
  ---------------------------------------------------------------------------------------------------------------------------
  
@@ -79,7 +79,7 @@ Project is an E-Game Application system.  This is an application in which e game
  . Admin leaves one of the fields empty
    . System throws an error explaining the issue. 
  . Admin enters a game already in the system
-   . System throws an error exlaining the game is already in the system
+   . System throws an error explaining the game is already in the system
  
  ---------------------------------------------------------------------------------------------------------------------------
  
@@ -93,7 +93,7 @@ Project is an E-Game Application system.  This is an application in which e game
  - Alternative Scenarios
   .The user leaves the review box empty and presses the button to review
    . the system will tell the user they cannot leave the box empty
-    . Alternative to this the button could be not pushable until there is data in the box
+    . Alternative to this the button could be not push able until there is data in the box
  
  ---------------------------------------------------------------------------------------------------------------------------
  
@@ -127,24 +127,29 @@ Use Case (Casual Format)
   . User must have something in their cart
   
   Success Guarantee (postconditions)
-  . Sale is completed and game is added to users library
+  . Sale is completed and game is added to users library and money is taken from users account.
   
   Main Success Scenario (basic flow)
   
    1.User will have a full cart at the start of the transaction 
     1.1 if the user has nothing in cart then they cannot progress.  
    2. the system will display a list of items aswell as their prices. At the bottom there will be a total amount.
-   3. The user will have to confirm they are happy with what is in their cart by pressing continue button. 
-   4. the user will be prompted to choose what payment type ie. Card, Funds on account or BitCoin
-   5. Once the user has chosen their payment method money is taken from the relevnt place and the transaction is complete
-    5.1 if there is insufficiant funds in the users account an error message will show and the user will be taken back to the cart (for a swift telling off)
-   6. games from the list will then be added to the users library
+   3. The user will have to confirm they are happy with what is in their cart by pressing continue button 
+   4. the user will be prompted by the system to choose what payment type ie. Card, Funds on account or BitCoin
+   5. The user selects payment type from a box and presses the pay button
+   6. assuming the payment went through the system adds a copy of the game/games that the user has purchased into their library
  
    Alternative Flows: 
    . Users debit card gets declined and the system brings the user back to the 
    . User does not have enough in personal account and would be asked to use a different form of payment
    . User presses the cancel payment button
-   . The system returns the user back to the previous screen
+   . The system returns the user back to the previous screen+
+   
+   Technology Used
+   basic pc input output device (ie mouse, keyboard)
+   
+   
+   
  
  
  
@@ -159,4 +164,4 @@ Use Case (Casual Format)
  
  
  
- 
+
