@@ -50,7 +50,8 @@ Refund:
 3.User selects the game which is to be refunded
 
 
-4.System checks to see if user is eligible for refund for game selected 4.1 If game is not eligible for refund the system will display an error
+4.System checks to see if user is eligible for refund for game selected
+    4.1 If game is not eligible for refund the system will display an error
 
 
 5.The system will ask for a confirmation from user.
@@ -103,7 +104,8 @@ Amend Account:
 1.The user selects Amend Account function
 
 
-2.The system asks for the user’s password 2.1 If incorrect password is entered the system displays an error message
+2.The system asks for the user’s password
+    2.1 If incorrect password is entered the system displays an error message
 
 
 3.The system displays the user’s details
@@ -112,7 +114,8 @@ Amend Account:
 4.The user can amend his/her details
 
 
-5.The user selects the save function 5.1 If any mandatory details are not filled in the system displays an error message.
+5.The user selects the save function
+    5.1 If any mandatory details are not filled in the system displays an error message.
 
 
 6.The system saves the details and exits
@@ -245,16 +248,21 @@ Main Success Scenario:
 3.User selects the game which is to be refunded
 
 
-4.System checks the time played by the user of the selected game 4.1 If the game is not eligible for refund the system will display an error
+4.System checks the time played by the user of the selected game 
+    4.1 If the game is not eligible for refund the system will display an error
 
 
-5.System checks the users details 5.1 The user has not been a member for 6 months the system will display an error message
+5.System checks the users details
+    5.1 The user has not been a member for 6 months the system will display an error message
 
 
-6.The system will ask for a confirmation from user. 6.1 The user selects cancel, user is returned to main menu
+6.The system will ask for a confirmation from user.
+    6.1 The user selects cancel, user is returned to main menu
 
 
-7.The system checks the authenticity of the game 7.1 The system finds that the game has not been purchased from this store 7.2The system shows an error message
+7.The system checks the authenticity of the game 
+    7.1 The system finds that the game has not been purchased from this store
+    7.2The system shows an error message
 
 
 8.The system removes the game from the users account
