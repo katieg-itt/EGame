@@ -1,0 +1,7 @@
+UC-6 Review
+ Review
+ 0.1 One important pre requisite for this use case is that the user actually needs to have the game in their library before they can review
+ 1. user goes to game page in their library
+ 2. user types in text box their review of the game
+ 3. user presses review button and the review is stored
+ 4. text box resets
