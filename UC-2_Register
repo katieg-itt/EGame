@@ -1,4 +1,13 @@
- Register
- 
- This will allow the user a chance to sign up to the application. They will need to enter in several details including there name, email and a unique password.
+
+Register
+1. User selects registration field
+2. System retrieves registeration information
+3. User fills in details
+    3.1 System checks that all fields are filled in correctly
+    3.2 If field/fields are empty, Ststem sends message
+4. User selects confirm
+    4.1 System checks if user is all ready registered 
+    4.2 If user is registered the system sends an error    message
+5. System processes details and adds user to the application
+6. User quits registration
  
