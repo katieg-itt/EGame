@@ -28,8 +28,8 @@ Use Case
 The 5 Use Cases I will be taking in the project are: Refund-UC-5, View Categories-UC-9, View Libraries-UC-11, Download Game-UC-12, Amend Account-13
 
 Brief: ALL
-Casual: Refund, View Category, View Libraries.  
-Fully Dressed: Download Game
+Casual: Refund, View Category, View Libraries, Download Game, Amend Account
+Fully Dressed: Refund
 
 Brief:
 
