@@ -10,3 +10,12 @@ Download Game:
 3.The user selects a game to download.
 4.The system proceeds to download the game
 5.On completion the system exits
+
+Download Game:  
+
+Success:  
+•Game will be downloaded to the user’s library
+
+Alternate Scenarios:
+•Insufficient space on user’s hard drive
+•Download has been interrupted
