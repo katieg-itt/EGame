@@ -39,16 +39,16 @@ Main Success Scenario:
 1.User selects Refund
 2.System will display list of games the user has purchased
 3.User selects the game which is to be refunded
-4.System checks the time played by the user of the selected game 
+4.System checks the time played by the user of the selected game in the Game status
     4.1 If the game is not eligible for refund the system will display an error
-5.System checks the users details
+5.System checks the users details to see if the user is eligible for a refund
     5.1 The user has not been a member for 6 months the system will display an error message
-6.The system will ask for a confirmation from user.
+6.The system will ask for a confirmation from user. 
     6.1 The user selects cancel, user is returned to main menu
-7.The system checks the authenticity of the game 
+7.The system checks the authenticity of the game from the online database of games sold
     7.1 The system finds that the game has not been purchased from this store
     7.2The system shows an error message
-8.The system removes the game from the users account
+8.The system removes the game from the users account and sends a digital ticket.
 9.The user will be refunded  
 10.System returns to main screen
 
