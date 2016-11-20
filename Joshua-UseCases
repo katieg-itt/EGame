@@ -5,25 +5,25 @@ Vision Statement
 Project is an E-Game Application system.  This is an application in which e games can be downloaded or ordered and the eGames can also be managed. This system also enables the user to view their activities in downloading or ordering eGames.  the application will also allow the user to view worldwide leader boards on each games and view their achievements.  The user can leave a comment/review of the game which in turn can be viewed by all users that use the application.
 
  Use Case
- |--------|----------------|------|---------------|
- |Use case | Description    | Risk | Business Value|
- |--------|----------------|------|---------------|
- |  1     | Login          |  2   |      4        |
- |  2     | Register       |  2   |      4        |
- |  3     | View Account   |  1   |      2        |
- |  4     | Purchase       |  4   |      4        |
- |  5     | Refund         |  4   |      4        |
- |  6     | Review         |  3   |      2        |
- |  7     | Top Sales      |  1   |      2        |
- |  8     | Top Scores     |  1   |      1        |
- |  9     | View Categories|  2   |      3        |
- |  10    | View Purch Logs|  2   |      4        |
- |  11    | View Library   |  3   |      3        |
- |  12    | Download Game  |  4   |      4        |
- |  13    | Amend Account  |  3   |      3        |
- |  14    | Add Discount   |  2   |      3        |
- |  15    | Add Game-Store |  4   |      4        |
- |--------|----------------|------|---------------|
+ |-------00--|----------------|------|---------------|
+ |Use case   | Description    | Risk | Business Value|
+ |-----------|----------------|------|---------------|
+ |  UC-1     | Login          |  2   |      4        |
+ |  UC-2     | Register       |  2   |      4        |
+ |  UC-3     | View Account   |  1   |      2        |
+ |  UC-4     | Purchase       |  4   |      4        |
+ |  UC-5     | Refund         |  4   |      4        |
+ |  UC-6     | Review         |  3   |      2        |
+ |  UC-7     | Top Sales      |  1   |      2        |
+ |  UC-8     | Top Scores     |  1   |      1        |
+ |  UC-9     | View Categories|  2   |      3        |
+ |  UC-10    | View Purch Logs|  2   |      4        |
+ |  UC-11    | View Library   |  3   |      3        |
+ |  UC-12    | Download Game  |  4   |      4        |
+ |  UC-13    | Amend Account  |  3   |      3        |
+ |  UC-14    | Add Discount   |  2   |      3        |
+ |  UC-15    | Add Game-Store |  4   |      4        |
+ |-----------|----------------|------|---------------|
  
  Because this is the cleanest version of the use cases we are using this table to describe the use cases across all 3 of our documents
  
