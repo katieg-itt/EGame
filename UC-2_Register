@@ -5,12 +5,9 @@ Primary Actor: User
 Interests:
     <> User wishes to register with the EGame application with no eligibity problems and wants confimation of registration and for the process to be clear and simple.
     <> EGame wants the system to accuratly register and record users details and to check for eligibillity to be correct for the user to be satisfied.
-    
-Preconditions:
-    <> User is identified and suthenticated by the system
-    
+ 
 Postconditions:
-    <> User is aware of registeration process. The list of users registered within the system is updated and the usre has confirmation of registration. 
+    <> User is identified and authenticated by the system
     
 Main Scenario with Alternatives:
 1. The user selects registration for the application.
