@@ -5,7 +5,8 @@ public enum GameCategory {
 
     FPS, SPORTS, SIMULATIONS, MMO, ADVENTURE, RTS, PUZZLE, ACTION, COMBAT, STEALTH;
 
-    public String toString() {
+    public String toString()
+    {
         switch (this) {
             case FPS:
                 return "First Person Shooter";
@@ -24,8 +25,6 @@ public enum GameCategory {
 
 
         } //end switch
-
-
         return null;
     }// end toString()
 } //end class
