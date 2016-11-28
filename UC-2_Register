@@ -8,6 +8,7 @@ Interests:
  
 Postconditions:
     <> User is identified and authenticated by the system
+    <> Anoynomus user has now a username and password
     
 Main Scenario with Alternatives:
 1. The user selects registration for the application.
@@ -23,9 +24,10 @@ Main Scenario with Alternatives:
     5.1 If username is already taken, system displays error message and gets user to choose another username.
     5.2 User must complete username field for valid registration
     5.3 If user declines and quits the system ends process.
-6. User fills in the registration form. 
+6. User fills in the registration form.
 7. System retrieves information and validates that the user is not pre registered in the system.
-    7.1 If user is already registered the system sends back an error message stating user is already registered.
+    7.1 If user is already registered the system sends back an error message stating user is already registered and requests another password match.
+    7.2 System hashes password and stores hash password.
 8. System checks that all fields are filled in correctly
     8.1 If user has not filled in the registration form completely, the system sends an error message with the registration form incomplete.
     8.2 User must complete all fields for a qualified registration.
