@@ -25,7 +25,7 @@ Use Case
  |  15    | Add Game-Store |  4   |      4        |
  |--------|----------------|------|---------------|
  
-The 5 Use Cases I will be taking in the project are: Refund, View Categories, View Libraries, Download Game, Amend Account
+The 5 Use Cases I will be taking in the project are: Refund-UC-5, View Categories-UC-9, View Libraries-UC-11, Download Game-UC-12, Amend Account-13
 
 Brief: ALL
 Casual: Refund, View Category, View Libraries.  
