@@ -18,16 +18,16 @@ class Game {
     private double price;
 
     
-    public void Game(){
-        gameId = nextID();
+    public  Game(){
+        gameId = 0;
         title = null;
         genre = null;
         console = null;
         price = 0;
     }
     
-    public void Game (String title, String genre,String  console, double price){
-        gameId = nextID();
+    public  Game (int gameId, String title, String genre,String  console, double price){
+        this.gameId = gameId;
         this.title = title;
         this.genre = genre;
         this.console = console;
@@ -105,7 +105,11 @@ class Game {
         this.price = price;
     }
  
-    public int nextID(){
-        return gameId++;
+    @Override
+    public String toString() {
+        return (this.gameId + " "  + this.title + " " + this.genre + " " + this.console + " " + this.price + "\n");
     }
+    
+    
+    
 }

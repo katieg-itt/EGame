@@ -6,7 +6,8 @@
 //Code written by Joshua
 package EGameClasses;
 
-import java.util.ArrayList;
+
+import java.util.List;
 
 /**
  *
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 public class User {
     private String userName;
     private String password;
-    private ArrayList<Game> cart;
+    private List cart;
 
     /**
      * @return the userName
@@ -48,14 +49,14 @@ public class User {
     /**
      * @return the cart
      */
-    public ArrayList<Game> getCart() {
+    public List<Game> getCart() {
         return cart;
     }
 
     /**
      * @param cart the cart to set
      */
-    public void setCart(ArrayList<Game> cart) {
+    public void setCart(List<Game> cart) {
         this.cart = cart;
     }
     
