@@ -14,22 +14,29 @@ import java.util.List;
  * @author Joshua
  */
 public class User {
-    private String userName;
+    private String username;
     private String password;
-    private List cart;
-
+    private String name;
+    private double money;
+    
+    public User(String username, String password, String name, double money){
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.money = money;
+    }
     /**
      * @return the userName
      */
     public String getUserName() {
-        return userName;
+        return username;
     }
 
     /**
      * @param userName the userName to set
      */
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     /**
@@ -47,17 +54,33 @@ public class User {
     }
 
     /**
-     * @return the cart
+     * @return the Money
      */
-    public List<Game> getCart() {
-        return cart;
+    public double getMoney() {
+        return money;
     }
 
     /**
-     * @param cart the cart to set
+     * @param money the money to set
      */
-    public void setCart(List<Game> cart) {
-        this.cart = cart;
+    public void setMoney(double money) {
+        this.money = money;
     }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    
     
 }

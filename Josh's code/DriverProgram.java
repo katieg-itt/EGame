@@ -5,23 +5,42 @@
  */
 package EGameClasses;
 
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Joshua
  */
 public class DriverProgram {
    public static void main(String args[]){
-   
+    UserLibrary usersLibrary = new UserLibrary();
     Inventory inventory = new Inventory();
     fillInventory(inventory);
-    /* Testing the getGame method. 
-    Game mygame = inventory.getGame(3);
-    System.out.print(mygame.toString());
+    User user = new User("Revenant90","12345", "Joshua", 500);
     
-    */
+    ArrayList myList= new ArrayList();
+    for(int i = 1; i <= 7; i++){
+    
+    myList.add(inventory.getGame(i));
+    
+    }
+    String choice =(JOptionPane.showInputDialog(myList.toString()));
+    int choiceInt = Integer.parseInt(choice);
+    
+    JOptionPane.showMessageDialog(null, "you chose " + inventory.getGame(choiceInt).toString());
     
     
+    double newAmount = user.getMoney();
+    newAmount = newAmount - inventory.getGame(choiceInt).getPrice();
+    user.setMoney(newAmount);
+    JOptionPane.showMessageDialog(null, user.getMoney());
     
+    
+    usersLibrary.addGame(inventory.getGame(choiceInt));
+    
+    JOptionPane.showMessageDialog(null, user.getMoney());
+     
     
 }
 

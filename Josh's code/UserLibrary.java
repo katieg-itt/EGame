@@ -14,8 +14,8 @@ import java.util.List;
 public class UserLibrary {
     private List userGames;
     
-   public void addGame(int gameId, String title, String genre, String console, double price){
-       Game game = new Game(gameId, title, genre, console, price);
+   public void addGame(Game game){
+       
        userGames.add(game);
        
        
