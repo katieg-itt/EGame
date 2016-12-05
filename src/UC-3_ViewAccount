@@ -1,0 +1,12 @@
+
+ View Account
+1. User selects there account to be viewd
+    1.1 System checks to see if user is valid
+    1.2 System retrieves users details
+    1.3 System displays details on screen
+2. User views details
+3. System checks for any modifications
+    3.1 If any changes are made system checks if valid
+    3.2 System makes changes
+4. User quits apllication
+5. System ends process
