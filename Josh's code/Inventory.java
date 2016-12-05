@@ -14,10 +14,10 @@ import java.util.List;
  * @author Joshua
  */
 public class Inventory {
-    private final List games;
+    private final List <Game> games;
     
     public Inventory(){
-        games = new ArrayList<>();
+        games = new ArrayList<Game>();
     }
     
    public void addGame(int gameId, String title, Genre genre, Console console, double price){

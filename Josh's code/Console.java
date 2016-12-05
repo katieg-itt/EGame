@@ -9,6 +9,6 @@ package EGameClasses;
  *
  * @author t00183089
  */
-class Console {
-    
+enum Console {
+    PS3, PS4, Xbox_360, Xbox_1, Nintendo_3DS, PC;
 }
