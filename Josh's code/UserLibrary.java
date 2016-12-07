@@ -5,6 +5,7 @@
  */
 package EGameClasses;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,12 +13,15 @@ import java.util.List;
  * @author Joshua
  */
 public class UserLibrary {
-    private List userGames;
+    private List<Game> userGames;
+   
+    public UserLibrary(){
+        userGames = new ArrayList<Game>();
+    }
     
-   public void addGame(Game game){
+   public void addGame(Game game){ 
        
        userGames.add(game);
-       
-       
+   
    }
 }

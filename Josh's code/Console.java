@@ -7,8 +7,8 @@ package EGameClasses;
 
 /**
  *
- * @author Joshua
+ * @author t00183089
  */
-public class Purchase {
-    
+enum Console {
+    PS3, PS4, Xbox_360, Xbox_1, Nintendo_3DS, PC;
 }

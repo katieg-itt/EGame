@@ -7,8 +7,8 @@ package EGameClasses;
 
 /**
  *
- * @author Joshua
+ * @author t00183089
  */
-public class Purchase {
-    
+enum Genre {
+    Action, Adventure, Horror, RPG, Racing, MMO;
 }

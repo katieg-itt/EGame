@@ -1,0 +1,15 @@
+Add Discount
+1.User selects add discount.
+    1.1 System checks that there is a purchase being made.
+    1.2 If no purchases have been made an error is brought back to the user
+    1.3 If no errors the system displays the discount field
+2. User fillis in the required discount code/number.
+    2.1 System checks that it is a valid discount code/number
+    2.2 If it is a non valid discount code, it is sent back to the user
+    2.3 If discount code is sent back to the user the discount is canceled.
+3. Once a discount is approved by the system. the amount of discount is added to the      toal purchase.
+    3.1 System applies the discount amount to the total purchase amount.
+4. User proceeds on completeing there purchase.
+5. System ends the add discount process and quits.
+
+ 

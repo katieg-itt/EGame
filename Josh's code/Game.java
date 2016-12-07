@@ -13,8 +13,8 @@ package EGameClasses;
 class Game {
     private int gameId = 0;
     private String title;
-    private String genre;
-    private String console;
+    private Genre genre;
+    private Console console;
     private double price;
 
     
@@ -26,7 +26,7 @@ class Game {
         price = 0;
     }
     
-    public  Game (int gameId, String title, String genre,String  console, double price){
+    public  Game (int gameId, String title, Genre genre,Console  console, double price){
         this.gameId = gameId;
         this.title = title;
         this.genre = genre;
@@ -66,28 +66,28 @@ class Game {
     /**
      * @return the genre
      */
-    public String getGenre() {
+    public Genre getGenre() {
         return genre;
     }
 
     /**
      * @param genre the genre to set
      */
-    public void setGenre(String genre) {
+    public void setGenre(Genre genre) {
         this.genre = genre;
     }
 
     /**
      * @return the console
      */
-    public String getConsole() {
+    public Console getConsole() {
         return console;
     }
 
     /**
      * @param console the console to set
      */
-    public void setConsole(String console) {
+    public void setConsole(Console console) {
         this.console = console;
     }
 
