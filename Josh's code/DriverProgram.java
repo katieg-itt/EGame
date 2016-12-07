@@ -5,6 +5,7 @@
  */
 package EGameClasses;
 
+
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
@@ -20,26 +21,29 @@ public class DriverProgram {
     User user = new User("Revenant90","12345", "Joshua", 125);
     
     ArrayList myList= new ArrayList();
-    for(int i = 1; i <= 8; i++){
+    //The 8 below is a magic number and i would fix it by using the length of the array 
+    //instead of just a numeric number. this way if inventory  changes it will change with the code. 
+    //i cannot fix this because i dont know how to get access to the length of the array in the inventory. 
+    for(int i = 1; i <=8; i++){
     
     myList.add(inventory.getGame(i));
     
     }
-    String choice =(JOptionPane.showInputDialog(myList.toString()));
+    String choice =(JOptionPane.showInputDialog("\n" + myList.toString() + "\n"));
     int choiceInt = Integer.parseInt(choice);
     
-    JOptionPane.showMessageDialog(null, "you chose " + inventory.getGame(choiceInt).toString());
+    JOptionPane.showMessageDialog(null, "\n  you chose " + inventory.getGame(choiceInt).toString() + "\n ");
     
     
     double newAmount = user.getMoney();
     newAmount = newAmount - inventory.getGame(choiceInt).getPrice();
     user.setMoney(newAmount);
-    JOptionPane.showMessageDialog(null, user.getMoney());
+   
     
     
     usersLibrary.addGame(inventory.getGame(choiceInt));
     
-    JOptionPane.showMessageDialog(null, user.getMoney());
+    JOptionPane.showMessageDialog(null,"You have " +String.format("%.2f",user.getMoney()) + " euro left");
      
     
 }
