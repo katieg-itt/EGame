@@ -29,22 +29,29 @@ public class DriverProgram {
     myList.add(inventory.getGame(i));
     
     }
-    String choice =(JOptionPane.showInputDialog("\n" + myList.toString() + "\n"));
+    
+    String choice =(JOptionPane.showInputDialog("\n Type in the game you want to buy and type -1 if you are finished buying. \n" + myList.toString() + "\n and you have " + user.getMoney() + " euro left"));
     int choiceInt = Integer.parseInt(choice);
     
-    JOptionPane.showMessageDialog(null, "\n  you chose " + inventory.getGame(choiceInt).toString() + "\n ");
-    
-    
+    while (choiceInt != -1){
+    JOptionPane.showMessageDialog(null, "\n  you chose " + inventory.getGame(choiceInt).toString() + "\n\n");
     double newAmount = user.getMoney();
     newAmount = newAmount - inventory.getGame(choiceInt).getPrice();
     user.setMoney(newAmount);
-   
-    
-    
     usersLibrary.addGame(inventory.getGame(choiceInt));
     
     JOptionPane.showMessageDialog(null,"You have " +String.format("%.2f",user.getMoney()) + " euro left");
-     
+    if(user.getMoney() < inventory.getGame(4).getPrice()){
+    JOptionPane.showMessageDialog(null, "You cannot afford any more games");
+    break;
+        
+    }
+    choice =(JOptionPane.showInputDialog("\n" + myList.toString() + "\n"));
+    choiceInt = Integer.parseInt(choice);
+
+    }
+    
+    
     
 }
 
